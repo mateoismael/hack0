@@ -1,0 +1,80 @@
+# Archivos y directorios específicos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+
+# Archivos de distribución / empaquetado
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Archivos de PyInstaller
+*.manifest
+*.spec
+
+# Archivos de prueba unitaria / cobertura
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Archivos de ambiente
+.env
+.venv
+env/
+venv/
+
+# Logs y bases de datos
+*.log
+*.sql
+*.sqlite
+
+# Archivos del sistema operativo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Archivos de IDE y editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Archivos específicos del proyecto (puedes agregar más según sea necesario)
+config.ini
+secrets.json
+
+# Directorios de salida o temporales
+output/
+temp/
